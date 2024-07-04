@@ -12,7 +12,6 @@ balancing_api = BalancingMechanismDynamicApi(api_client)
 try:
     print("\n--- Balancing Mechanism Dynamic Data ---")
 
-    # Specify the settlement date and period (adjust as needed)
     settlement_date = datetime.now().date()
     settlement_period = 1  # Adjust as needed
 
